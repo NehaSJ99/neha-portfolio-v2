@@ -1,10 +1,10 @@
 import Button from '@/components/form/Button';
 import SectionTitle from '@/components/shared/SectionTitle';
 import { HiOutlineChartBar, HiOutlineFire } from 'react-icons/hi';
-import { GiTrophyCup } from "react-icons/gi";
-import { FaFileAlt} from "react-icons/fa";
+import { GiTrophyCup } from 'react-icons/gi';
+import { FaFileAlt} from 'react-icons/fa';
 import ProgressBar from '@/components/shared/ProgressBar';
-import { FiLink } from "react-icons/fi";
+import { FiLink } from 'react-icons/fi';
 
 const AboutSection = () => {
   return (
@@ -15,7 +15,7 @@ const AboutSection = () => {
         {/* Bio */}
         <div className="">
           <p className="text-justify">
-            Hi, I am Neha Jagtap, I’m a Master’s student in Computer Science at NCSU, passionate about AI, Machine Learning, and scalable software solutions. With expertise in Python, SQL, Javascript, and cloud technologies like Azure, I specialize in data engineering, full-stack development, and AI-driven automation to optimize workflows and enhance efficiency.
+            Hi, I am Neha Jagtap, a Masters student in Computer Science at NCSU, passionate about AI, Machine Learning, and scalable software solutions. With expertise in Python, SQL, Javascript, and cloud technologies like Azure, I specialize in data engineering, full-stack development, and AI-driven automation to optimize workflows and enhance efficiency.
           </p>
           <a href="/Neha Jagtap Resume.pdf" download="Neha_Jagtap_CV.pdf">
             <Button className="mt-5">Download CV</Button>
@@ -89,29 +89,29 @@ const AboutSection = () => {
         </div>
 
         <div className="relative">
-      <div className="flex">
-        {/* Icon */}
-        <div className="mr-5 text-gray-300">
-          <FaFileAlt size={50} />
-        </div>
+          <div className="flex">
+            {/* Icon */}
+            <div className="mr-5 text-gray-300">
+              <FaFileAlt size={50} />
+            </div>
 
-        {/* Text */}
-        <div>
-          <h2 className="text-3xl font-bold">1</h2>
-          <p className="mt-1">IEEE Publication</p>
-        </div>
+            {/* Text */}
+            <div>
+              <h2 className="text-3xl font-bold">1</h2>
+              <p className="mt-1">IEEE Publication</p>
+            </div>
 
-        {/* Link Icon in Corner */}
-        <a
-          href="https://your-ieee-paper-link.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="absolute top-2 right-1 text-gray-400 hover:text-gray-200 transition-all duration-300"
-        >
-          <FiLink size={20} />
-        </a>
-      </div>
-    </div>
+            {/* Link Icon in Corner */}
+            <a
+              href="https://ieeexplore.ieee.org/document/9299606"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="absolute top-2 right-1 text-gray-400 hover:text-gray-200 transition-all duration-300"
+            >
+              <FiLink size={20} />
+            </a>
+          </div>
+        </div>
       </div>
     </>
   );

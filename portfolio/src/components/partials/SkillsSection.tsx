@@ -1,32 +1,32 @@
-"use client";
-import { motion } from "framer-motion";
+'use client';
+import { motion } from 'framer-motion';
 import { 
   FaPython, FaReact, FaNodeJs, FaDocker 
-} from "react-icons/fa";
+} from 'react-icons/fa';
 import { 
   SiFlask, SiPostgresql, SiMongodb, SiSnowflake, 
   SiMicrosoftazure, SiAmazonaws, SiApachespark, 
   SiKubernetes, SiTensorflow, SiScikitlearn, 
   SiApacheairflow 
-} from "react-icons/si";
+} from 'react-icons/si';
 
 // Skill Data with Proficiency Levels
 const skills = [
-  { name: "Python", icon: <FaPython size={42} />, level: "Advanced" },
-  { name: "React.js", icon: <FaReact size={42} />, level: "Intermediate" },
-  { name: "Node.js", icon: <FaNodeJs size={42} />, level: "Intermediate" },
-  { name: "Flask", icon: <SiFlask size={42} />, level: "Advanced" },
-  { name: "PostgreSQL", icon: <SiPostgresql size={42} />, level: "Intermediate" },
-  { name: "MongoDB", icon: <SiMongodb size={42} />, level: "Advanced" },
-  { name: "Snowflake", icon: <SiSnowflake size={42} />, level: "Beginner" }, // Beginner Skill
-  { name: "Azure", icon: <SiMicrosoftazure size={42} />, level: "Advanced" },
-  { name: "AWS", icon: <SiAmazonaws size={42} />, level: "Intermediate" },
-  { name: "Spark", icon: <SiApachespark size={42} />, level: "Intermediate" },
-  { name: "Docker", icon: <FaDocker size={42} />, level: "Intermediate" },
-  { name: "Kubernetes", icon: <SiKubernetes size={42} />, level: "Intermediate" },
-  { name: "TensorFlow", icon: <SiTensorflow size={42} />, level: "Intermediate" },
-  { name: "Scikit-learn", icon: <SiScikitlearn size={42} />, level: "Intermediate" },
-  { name: "Airflow", icon: <SiApacheairflow size={42} />, level: "Intermediate" },
+  { name: 'Python', icon: <FaPython size={42} />, level: 'Advanced' },
+  { name: 'React.js', icon: <FaReact size={42} />, level: 'Intermediate' },
+  { name: 'Node.js', icon: <FaNodeJs size={42} />, level: 'Intermediate' },
+  { name: 'Flask', icon: <SiFlask size={42} />, level: 'Advanced' },
+  { name: 'PostgreSQL', icon: <SiPostgresql size={42} />, level: 'Intermediate' },
+  { name: 'MongoDB', icon: <SiMongodb size={42} />, level: 'Advanced' },
+  { name: 'Snowflake', icon: <SiSnowflake size={42} />, level: 'Beginner' }, // Beginner Skill
+  { name: 'Azure', icon: <SiMicrosoftazure size={42} />, level: 'Advanced' },
+  { name: 'AWS', icon: <SiAmazonaws size={42} />, level: 'Intermediate' },
+  { name: 'Spark', icon: <SiApachespark size={42} />, level: 'Intermediate' },
+  { name: 'Docker', icon: <FaDocker size={42} />, level: 'Intermediate' },
+  { name: 'Kubernetes', icon: <SiKubernetes size={42} />, level: 'Intermediate' },
+  { name: 'TensorFlow', icon: <SiTensorflow size={42} />, level: 'Intermediate' },
+  { name: 'Scikit-learn', icon: <SiScikitlearn size={42} />, level: 'Intermediate' },
+  { name: 'Airflow', icon: <SiApacheairflow size={42} />, level: 'Intermediate' },
 ];
 
 const SkillsSection = () => {

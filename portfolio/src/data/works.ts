@@ -207,14 +207,14 @@ export const works: Work[] = [
     images: ['/images/works/work-01.png', '/images/works/work-02.png', '/images/works/work-03.png'],
     previewUrl: 'https://github.com/NehaSJ99/WolfParkingManagementSystem',
     featureList: [
-      "Manages university campus parking, including drivers, permits, and citations",
-      "Tracks parking lots, zones, space types, and availability",
-      "Supports multiple permit types with regulations based on driver status",
-      "Allows administrators to manage parking resources efficiently",
-      "Enables security personnel to issue and update citations for violations",
-      "Processes citation payments and updates status",
-      "Requires MariaDB client jar file and Eclipse IDE for execution"
-  ],
+      'Manages university campus parking, including drivers, permits, and citations',
+      'Tracks parking lots, zones, space types, and availability',
+      'Supports multiple permit types with regulations based on driver status',
+      'Allows administrators to manage parking resources efficiently',
+      'Enables security personnel to issue and update citations for violations',
+      'Processes citation payments and updates status',
+      'Requires MariaDB client jar file and Eclipse IDE for execution'
+    ],
     attributes: [
       {
         name: 'Course',
@@ -258,12 +258,12 @@ Our project aims to automate plant disease detection and classification using CN
     images: ['/images/works/work-01.png', '/images/works/work-02.png', '/images/works/work-03.png'],
     previewUrl: 'https://github.com/NehaSJ99/plant_disease_detection_using_CNN',
     featureList: [
-      "CNN-based tool for early plant disease detection",
-      "Helps farmers take timely interventions to prevent crop loss",
-      "Improves crop management and food security",
-      "Automates disease identification using deep learning",
-      "Enhances agricultural productivity with AI-driven insights"
-  ],
+      'CNN-based tool for early plant disease detection',
+      'Helps farmers take timely interventions to prevent crop loss',
+      'Improves crop management and food security',
+      'Automates disease identification using deep learning',
+      'Enhances agricultural productivity with AI-driven insights'
+    ],
     attributes: [
       {
         name: 'Course',
@@ -305,19 +305,19 @@ Our project aims to automate plant disease detection and classification using CN
     images: ['/images/works/work-01.png', '/images/works/work-02.png', '/images/works/work-03.png'],
     previewUrl: 'https://github.com/NehaSJ99/Sentimental-Analyzer-Pro',
     featureList: [
-      "Sentiment classification (positive, negative, neutral)",
-      "Text, audio, and multi-source data analysis",
-      "Real-time sentiment tracking",
-      "Social media sentiment analysis",
-      "Customer review sentiment analysis",
-      "News sentiment analysis",
-      "Political sentiment tracking",
-      "Trend detection and insights",
-      "Multichannel data integration",
-      "Customizable sentiment models",
-      "User-friendly dashboard and visualization",
-      "Cost-effective and scalable solution"
-  ],
+      'Sentiment classification (positive, negative, neutral)',
+      'Text, audio, and multi-source data analysis',
+      'Real-time sentiment tracking',
+      'Social media sentiment analysis',
+      'Customer review sentiment analysis',
+      'News sentiment analysis',
+      'Political sentiment tracking',
+      'Trend detection and insights',
+      'Multichannel data integration',
+      'Customizable sentiment models',
+      'User-friendly dashboard and visualization',
+      'Cost-effective and scalable solution'
+    ],
     attributes: [
       {
         name: 'Course',
@@ -337,7 +337,7 @@ Our project aims to automate plant disease detection and classification using CN
       },
       {
         name: 'Skills',
-        value: "Natural Language Processing (NLP), Machine Learning, Deep Learning, Python, TensorFlow/Keras, Sentiment Analysis, Speech-to-Text Processing, Data Visualization, API Integration, Data Preprocessing, Model Training & Optimization",
+        value: 'Natural Language Processing (NLP), Machine Learning, Deep Learning, Python, TensorFlow/Keras, Sentiment Analysis, Speech-to-Text Processing, Data Visualization, API Integration, Data Preprocessing, Model Training & Optimization',
       },
       {
         name: 'Current Version',
@@ -359,17 +359,17 @@ Our project aims to automate plant disease detection and classification using CN
     images: ['/images/works/work-01.png', '/images/works/work-02.png', '/images/works/work-03.png'],
     previewUrl: 'https://github.com/NehaSJ99/Olympic_2024_Data_On_Azure',
     featureList: [
-      "Automated data ingestion from multiple sources",
-      "Cloud-based scalable data storage",
-      "Orchestration and automation using Azure Data Factory",
-      "Data transformation and cleaning with Azure Databricks",
-      "Storage of raw and transformed data in Azure Data Lake Gen 2",
-      "Advanced analytics with Azure Synapse Analytics",
-      "Real-time and batch data processing",
-      "Interactive dashboards with Power BI, Looker Studio, and Tableau",
-      "Trend and metric analysis for Paris 2024 Olympics",
-      "End-to-end data pipeline for insights generation"
-  ],
+      'Automated data ingestion from multiple sources',
+      'Cloud-based scalable data storage',
+      'Orchestration and automation using Azure Data Factory',
+      'Data transformation and cleaning with Azure Databricks',
+      'Storage of raw and transformed data in Azure Data Lake Gen 2',
+      'Advanced analytics with Azure Synapse Analytics',
+      'Real-time and batch data processing',
+      'Interactive dashboards with Power BI, Looker Studio, and Tableau',
+      'Trend and metric analysis for Paris 2024 Olympics',
+      'End-to-end data pipeline for insights generation'
+    ],
     attributes: [
       {
         name: 'Course',
@@ -411,17 +411,17 @@ Our project aims to automate plant disease detection and classification using CN
     images: ['/images/works/work-01.png', '/images/works/work-02.png', '/images/works/work-03.png'],
     previewUrl: 'https://github.com/NehaSJ99/Bias_Free_Justice',
     featureList: [
-      "Analysis of racial bias in COMPAS risk assessment tool",
-      "Dataset preprocessing and cleaning",
-      "Exploratory data analysis (EDA) on COMPAS dataset",
-      "Visualization of racial disparities in risk assessment",
-      "Custom cost penalty implementation for fairness adjustments",
-      "Leveraging large language models (LLMs) for data augmentation",
-      "Representation analysis by race and other demographics",
-      "Proposing strategies to mitigate bias in risk predictions",
-      "Interpretable ML techniques for fair decision-making",
-      "Open-source and MIT-licensed research project"
-  ],
+      'Analysis of racial bias in COMPAS risk assessment tool',
+      'Dataset preprocessing and cleaning',
+      'Exploratory data analysis (EDA) on COMPAS dataset',
+      'Visualization of racial disparities in risk assessment',
+      'Custom cost penalty implementation for fairness adjustments',
+      'Leveraging large language models (LLMs) for data augmentation',
+      'Representation analysis by race and other demographics',
+      'Proposing strategies to mitigate bias in risk predictions',
+      'Interpretable ML techniques for fair decision-making',
+      'Open-source and MIT-licensed research project'
+    ],
     attributes: [
       {
         name: 'Course',

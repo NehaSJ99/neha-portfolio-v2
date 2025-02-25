@@ -1,7 +1,7 @@
-import { SiNvidia, SiGooglecloud, SiMicrosoftazure } from "react-icons/si";
-import SectionTitle from "@/components/shared/SectionTitle";
-import { FaFileAlt, FaPython, FaReact, FaNodeJs, FaDocker } from "react-icons/fa";
-import { SiFlask, SiPostgresql, SiMongodb, SiSnowflake, SiAmazonaws, SiApachespark, SiKubernetes, SiTensorflow, SiScikitlearn } from "react-icons/si";
+import { SiNvidia, SiGooglecloud, SiMicrosoftazure } from 'react-icons/si';
+import SectionTitle from '@/components/shared/SectionTitle';
+import { FaFileAlt, FaPython, FaReact, FaNodeJs, FaDocker } from 'react-icons/fa';
+import { SiFlask, SiPostgresql, SiMongodb, SiSnowflake, SiAmazonaws, SiApachespark, SiKubernetes, SiTensorflow, SiScikitlearn } from 'react-icons/si';
 
 interface Certification {
   id: number;
@@ -15,25 +15,24 @@ interface Certification {
 const certifications: Certification[] = [
   {
     id: 1,
-    title: "Getting Started with Deep Learning",
-    issuedAt: "Jan 2024",
+    title: 'Getting Started with Deep Learning',
+    issuedAt: 'Jan 2024',
     icon: <SiNvidia className="text-5xl text-green-500 dark:text-green-400" />,
-    link: "Deep Learning Neha Jagtap.pdf", // 🔽 Path to the local file
-    download: true, // ✅ Enable direct download
+    link: 'https://learn.microsoft.com/en-us/users/nehajagtap-9769/credentials/3f5460c37c713c6d?ref=https%3A%2F%2Fwww.linkedin.com%2F',
   },
   {
     id: 2,
-    title: "Microsoft Certified: Azure Data Fundamentals",
-    issuedAt: "October 2024",
+    title: 'Microsoft Certified: Azure Data Fundamentals',
+    issuedAt: 'October 2024',
     icon: <SiMicrosoftazure className="text-5xl text-blue-600 dark:text-blue-400" />,
-    link: "https://learn.microsoft.com/en-us/users/nehajagtap-9769/credentials/3f5460c37c713c6d?ref=https%3A%2F%2Fwww.linkedin.com%2F",
+    link: 'https://learn.microsoft.com/en-us/users/nehajagtap-9769/credentials/3f5460c37c713c6d?ref=https%3A%2F%2Fwww.linkedin.com%2F',
   },
   {
     id: 3,
-    title: "Introduction to Generative AI",
-    issuedAt: "Nov 2024",
+    title: 'Introduction to Generative AI',
+    issuedAt: 'Nov 2024',
     icon: <SiGooglecloud className="text-5xl text-blue-500 dark:text-blue-300" />,
-    link: "https://www.cloudskillsboost.google/public_profiles/2760773b-dc78-437e-90e5-59a6fc773c26/badges/12731562",
+    link: 'https://www.cloudskillsboost.google/public_profiles/2760773b-dc78-437e-90e5-59a6fc773c26/badges/12731562',
   },
 ];
 
@@ -45,12 +44,11 @@ const CertificationCard: React.FC<Certification> = ({ title, issuedAt, icon, lin
     
     <a
       href={link}
-      target={download ? "_self" : "_blank"}
-      rel={download ? undefined : "noopener noreferrer"}
-      download={download ? "" : undefined} // ✅ Enables direct download only for NVIDIA
+      target="_blank"
+      rel="noopener noreferrer" // ✅ Security best practice
       className="mt-4 px-4 py-2 bg-blue-600 dark:bg-blue-500 text-white font-medium rounded-lg shadow-md hover:bg-blue-700 dark:hover:bg-blue-400 transition"
     >
-      {download ? "Download Certificate" : "View Certification"}
+      View Certification
     </a>
   </div>
 );

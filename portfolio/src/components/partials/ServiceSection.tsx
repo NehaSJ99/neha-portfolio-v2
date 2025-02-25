@@ -1,32 +1,32 @@
-import classNames from "classnames";
-import Image from "next/image";
-import React from "react";
-import SectionTitle from "@/components/shared/SectionTitle";
-import Link from "next/link";
+import classNames from 'classnames';
+import Image from 'next/image';
+import React from 'react';
+import SectionTitle from '@/components/shared/SectionTitle';
+import Link from 'next/link';
 
 const awards = [
   {
-    name: "PearlHack 2025",
-    issuedBy: "Infosys USA Foundations - Best Use of Gen AI",
-    issuedOn: "March 2025",
-    image: "/images/awards/perlhacks.png",
-    link: "https://www.linkedin.com/posts/nehasj99_pearlhack2025-hackathon-ai-activity-7298873288536051712-Gn38?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC0H_PQBle2pDXLUbLhN-lajutSEd2YnNU8",
+    name: 'PearlHack 2025',
+    issuedBy: 'Infosys USA Foundations - Best Use of Gen AI',
+    issuedOn: 'March 2025',
+    image: '/images/awards/perlhacks.png',
+    link: 'https://www.linkedin.com/posts/nehasj99_pearlhack2025-hackathon-ai-activity-7298873288536051712-Gn38?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC0H_PQBle2pDXLUbLhN-lajutSEd2YnNU8',
     isWinner: true,
   },
   {
-    name: "DiamondHack 2024",
-    issuedBy: "North Carolina State University",
-    issuedOn: "April 2024",
-    image: "/images/awards/dimondhack.png",
-    link: "https://www.linkedin.com/posts/nehasj99_diamondhack2024-hackathon-ai-activity-7181488377936932864-nx-u?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC0H_PQBle2pDXLUbLhN-lajutSEd2YnNU8",
+    name: 'DiamondHack 2024',
+    issuedBy: 'North Carolina State University',
+    issuedOn: 'April 2024',
+    image: '/images/awards/dimondhack.png',
+    link: 'https://www.linkedin.com/posts/nehasj99_diamondhack2024-hackathon-ai-activity-7181488377936932864-nx-u?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC0H_PQBle2pDXLUbLhN-lajutSEd2YnNU8',
     isWinner: true,
   },
   {
-    name: "Spotlight Award",
-    issuedBy: "Reliance Jio Infocomm Ltd.",
-    issuedOn: "August 2023",
-    image: "/images/awards/Jio.png",
-    link: "https://www.jio.com/",
+    name: 'Spotlight Award',
+    issuedBy: 'Reliance Jio Infocomm Ltd.',
+    issuedOn: 'August 2023',
+    image: '/images/awards/Jio.png',
+    link: 'https://www.jio.com/',
     isWinner: false,
   },
 ];

@@ -22,24 +22,24 @@ const Menu = () => {
         </Link>
         
         <ul className="ml-auto hidden items-center md:flex">
-        <li className="relative">
-        <Link href="/resume-gpt">
-          <span
-            className={classNames(
-              "inline-block px-4 font-semibold transition-colors duration-300 hover:text-primary-600 hover:underline",
-              {
-                "text-primary-500": router.asPath === "/resume-gpt",
-              }
-            )}
-          >
+          <li className="relative">
+            <Link href="/resume-gpt">
+              <span
+                className={classNames(
+                  'inline-block px-4 font-semibold transition-colors duration-300 hover:text-primary-600 hover:underline',
+                  {
+                    'text-primary-500': router.asPath === '/resume-gpt',
+                  }
+                )}
+              >
             Try ResumeGPT
-          </span>
-        </Link>
-        {/* "New" Badge */}
-        <span className="absolute -top-2 -right-2 animate-bounce rounded-full bg-red-500 px-2 py-0.5 text-xs font-bold text-white shadow-md">
+              </span>
+            </Link>
+            {/* "New" Badge */}
+            <span className="absolute -top-2 -right-2 animate-bounce rounded-full bg-red-500 px-2 py-0.5 text-xs font-bold text-white shadow-md">
           New
-        </span>
-      </li>
+            </span>
+          </li>
 
           <li>
             <Link href="/works">
