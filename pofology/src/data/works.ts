@@ -9,7 +9,7 @@ export const works: Work[] = [
     description: `The personal portfolio website showcases my professional experience, projects, and technical skills in a modern and interactive way. Built using Next.js, the website provides a fast, responsive, and user-friendly experience. It highlights my expertise in web development, data science, and software engineering, offering an engaging way for visitors to explore my work.`,
     publishedAt: '26 Feb 2025',
     images: ['/images/works/work-01.png', '/images/works/work-02.png', '/images/works/work-03.png'],
-    previewUrl: 'https://pofology.bdlancers.com/',
+    previewUrl: 'NA',
     featureList: [
       '100% Fluid Responsive – Fits any device perfectly',
       'Tested on real devices',
@@ -162,7 +162,7 @@ export const works: Work[] = [
     description: `The BrAPI Search Tool, developed by the GrainGenes team, leverages the BrAPI Interface to offer a seamless search experience for various data types such as germplasm, traits, and trials. By utilizing BrAPI, this tool integrates data from multiple databases without requiring direct connections, simplifying access and improving data accessibility for research purposes.`,
     publishedAt: '16 Aug 2024',
     images: ['/images/works/work-01.png', '/images/works/work-02.png', '/images/works/work-03.png'],
-    previewUrl: 'https://pofology.bdlancers.com/',
+    previewUrl: 'NA',
     featureList: ['Search across multiple databases for germplasm, traits, and trials', 'Unified interface leveraging the BrAPI specification', 'Access comprehensive data without direct database connections', 'Easy-to-use web interface with interactive elements'
     ],
     attributes: [
