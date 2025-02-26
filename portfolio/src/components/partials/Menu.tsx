@@ -140,6 +140,16 @@ const Menu = () => {
                   </Link>
                 </div>
                 <nav className="mt-4 space-y-1 px-2">
+                <Link href="/resume-gpt">
+                    <a
+                      className={classNames(
+                        { 'text-primary-500': router.asPath == '/resume-gpt' },
+                        'group flex items-center px-2 py-2 text-base font-medium transition-colors duration-150 hover:text-primary-600'
+                      )}
+                    >
+                      Try ResumeGPT
+                    </a>
+                  </Link>
                   <Link href="/works">
                     <a
                       className={classNames(
@@ -148,16 +158,6 @@ const Menu = () => {
                       )}
                     >
                       Works
-                    </a>
-                  </Link>
-                  <Link href="/blog">
-                    <a
-                      className={classNames(
-                        { 'text-primary-500': router.asPath == '/blog' },
-                        'group flex items-center px-2 py-2 text-base font-medium transition-colors duration-150 hover:text-primary-600'
-                      )}
-                    >
-                      Blog
                     </a>
                   </Link>
                   <Link href="/contact">
