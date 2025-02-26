@@ -140,7 +140,7 @@ const Menu = () => {
                   </Link>
                 </div>
                 <nav className="mt-4 space-y-1 px-2">
-                <Link href="/resume-gpt">
+                  <Link href="/resume-gpt">
                     <a
                       className={classNames(
                         { 'text-primary-500': router.asPath == '/resume-gpt' },
