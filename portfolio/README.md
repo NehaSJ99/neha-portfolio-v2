@@ -1,4 +1,4 @@
-# Peronal Portfolio
+# Personal Portfolio
 
 This is a personal portfolio template build with Typescript, NextJS and Tailwindcss. This template is designed for building beautiful personal portfolio website. It has a great customisable option. Fully responsive and looks great on any devices. This template contains custom made pages for your portfolios & blog posts. It’s suitable for designers, developers or freelancers who want to show their projects and services, share their thoughts and knowledge with their own platform. Finally it’s a clean & minimal design.
 
