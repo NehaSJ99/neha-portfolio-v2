@@ -23,7 +23,11 @@ const Menu = () => {
         
         <ul className="ml-auto hidden items-center md:flex">
           <li className="relative">
-            <Link href="/resume-gpt">
+            <Link 
+              href="https://resume-chatbot-m3kq.onrender.com/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
               <span
                 className={classNames(
                   'inline-block px-4 font-semibold transition-colors duration-300 hover:text-primary-600 hover:underline',
@@ -140,7 +144,11 @@ const Menu = () => {
                   </Link>
                 </div>
                 <nav className="mt-4 space-y-1 px-2">
-                  <Link href="/resume-gpt">
+                  <Link 
+                    href="https://resume-chatbot-m3kq.onrender.com/" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                  >
                     <a
                       className={classNames(
                         { 'text-primary-500': router.asPath == '/resume-gpt' },
